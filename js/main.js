@@ -30,8 +30,10 @@
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
+      $('#header').removeClass('header-normal');
     } else {
       $('#header').removeClass('header-scrolled');
+      $('#header').addClass('header-normal');
     }
   });
 

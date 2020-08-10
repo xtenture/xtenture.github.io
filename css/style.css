@@ -23,7 +23,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #0a98c0;
+  color: #ff8080;
   outline: none;
   text-decoration: none;
 }
@@ -206,6 +206,14 @@ h6 {
   margin-top: 60px;
 }
 
+.header-normal .main-nav a{
+  color:#fff;
+}
+
+.color-white {
+  color: #fff
+}
+
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
@@ -216,10 +224,11 @@ h6 {
   position: relative;
   background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
   background-size: cover;
+  display: flex;
 }
 
 #intro .intro-info h2 {
-  color: #413e66;
+  color: #fff;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
@@ -247,7 +256,7 @@ h6 {
 
 #intro .intro-info .btn-get-started:hover,
 #intro .intro-info .btn-services:hover {
-  background: #0a98c0;
+  background: #ff8080;
 }
 
 /*--------------------------------------------------------------
@@ -1156,7 +1165,7 @@ h6 {
 }
 
 #pricing .card .btn:hover {
-  background: #0a98c0;
+  background: #ff8080;
 }
 
 /* Frequently Asked Questions Section
@@ -1265,7 +1274,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0a98c0;
+  background: #ff8080;
   color: #fff;
 }
 
@@ -1335,7 +1344,7 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #0a98c0;
+  background: #ff8080;
 }
 
 #footer .footer-top .form .form-group {
@@ -1419,7 +1428,7 @@ h6 {
 }
 
 #footer .footer-top .form button[type="submit"]:hover {
-  background: #0a98c0;
+  background: #ff8080;
   cursor: pointer;
 }
 
@@ -1442,7 +1451,7 @@ h6 {
 }
 
 #footer .credits a:hover {
-  color: #0a98c0;
+  color: #ff8080;
 }
 
 /*--------------------------------------------------------------
@@ -1520,8 +1529,8 @@ h6 {
 
 @media (max-width: 767px) {
   #intro {
-    height: auto;
     padding: 80px 0 60px 0;
+    display: flex;
   }
 
   #intro .container {
